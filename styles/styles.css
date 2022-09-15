@@ -73,7 +73,7 @@ a{
   justify-content: space-between;
 }
 
-.signup-button{
+.signup-button, .call-to-action-button{
   margin-top: auto;
   background-color: #3882F6;
   color:white;
@@ -82,6 +82,10 @@ a{
   border:none;
   border-radius: 10px;
   padding: 10px 30px;
+}
+
+.call-to-action-button{
+  border:solid white;
 }
 
 .content{
@@ -138,4 +142,39 @@ a{
   font-size: 24px;
   font-weight:bold;
   text-align: right;
+}
+
+.call-to-action{
+  padding:50px 12% 50px 12%;
+  /* border:solid 4px; */
+}
+
+.call-to-action{
+  /* margin:0 auto; */
+  text-align:center;
+}
+
+.call-to-action-card{
+  padding:50px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#3882F6;
+  color:white;
+  border-radius: 10px;
+}
+
+.call-to-action-text{
+  
+  text-align: left;
+}
+
+.call-to-action-text h1{
+ font-size: 40px;
+ margin:0;
+}
+
+.call-to-action-text p {
+  margin: 0;
 }

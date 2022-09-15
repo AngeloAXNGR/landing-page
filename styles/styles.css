@@ -22,6 +22,7 @@ body{
 
 .header-logo{
   margin: 0 auto 0 0;
+  font-size: 24px;
 }
 
 .links ul{
@@ -84,35 +85,57 @@ a{
 }
 
 .content{
-  border:solid 4px blue;
-  padding:0 12% 0 12%;
+  /* border:solid 4px blue; */
+  padding:0 12% 100px 12%;
 }
 
 .content h1{
   /* border:solid 4px black; */
+  font-size: 36px;
+  font-weight:bold;
   text-align:center;
-  
+  margin-bottom: 50px;
 }
 
 .items{
   display:flex;
   flex-direction:row;
-  justify-content: flex-start;
-  gap: 50px;
+  justify-content: center;
+  gap: 25px;
   flex-wrap: wrap;
+
 }
 
 .item-img{
   border:solid 4px rgb(168, 168, 226);
   border-radius: 10px;
-  width:150px;
-  height: 150px
+  width:200px;
+  height: 200px;
 }
 
 .sub-item{
-  border:solid 4px red;
-  flex: 0 1 auto;
+  /* border:solid 4px red; */
+  flex: 0 1 200px;
   display:flex;
   flex-direction:column;
+  text-align:center;
   align-items:center;
+}
+
+.quotes-section{
+  background-color:#E5E7EB;
+  padding:30px 12% 25px 12%;
+}
+
+.quotes-section p{
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quotes-section .quote-author{
+  font-style:normal;
+  font-size: 24px;
+  font-weight:bold;
+  text-align: right;
 }

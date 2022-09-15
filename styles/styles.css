@@ -1,10 +1,10 @@
 body{
   display:flex;
   flex-direction:column;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
+.top-section{
   background-color: #1F2937;
   color: white;
   display:flex;
@@ -12,7 +12,7 @@ body{
   padding:20px 12% 0 12%;
 }
 
-.navigation{
+.header{
   display:flex;
   flex-direction: row;
   align-items:center;
@@ -42,14 +42,16 @@ a{
   flex-direction: row;
   align-items:center;
   padding: 120px 0;
-  gap: 250px;
+  gap: 100px;
 }
 
-
+.hero-image{
+  flex: 0 1 50%;
+}
 
 .hero-image img{
-  width: 625px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .hero-main-text{
@@ -62,9 +64,13 @@ a{
   font-size: 18px;
 }
 
-/* .sign-up-section{
-
-} */
+.sign-up-section{
+  flex: 1 1 50%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 
 .signup-button{
   margin-top: auto;
@@ -75,4 +81,38 @@ a{
   border:none;
   border-radius: 10px;
   padding: 10px 30px;
+}
+
+.content{
+  border:solid 4px blue;
+  padding:0 12% 0 12%;
+}
+
+.content h1{
+  /* border:solid 4px black; */
+  text-align:center;
+  
+}
+
+.items{
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.item-img{
+  border:solid 4px rgb(168, 168, 226);
+  border-radius: 10px;
+  width:150px;
+  height: 150px
+}
+
+.sub-item{
+  border:solid 4px red;
+  flex: 0 1 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }

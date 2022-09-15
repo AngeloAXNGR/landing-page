@@ -43,7 +43,7 @@ a{
   flex-direction: row;
   align-items:center;
   padding: 120px 0;
-  gap: 100px;
+  gap: 200px;
 }
 
 .hero-image{
@@ -52,7 +52,7 @@ a{
 
 .hero-image img{
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .hero-main-text{
@@ -177,4 +177,14 @@ a{
 
 .call-to-action-text p {
   margin: 0;
+}
+
+
+.footer{
+  background-color: #1F2937;
+  text-align:center;
+  color:white;
+  padding: 20px;
+  font-weight:bold;
+  font-size:24px;
 }
